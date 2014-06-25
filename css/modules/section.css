@@ -1,0 +1,7 @@
+.section {
+  padding: 30px 0;
+}
+.section--slider {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}

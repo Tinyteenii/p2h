@@ -1,0 +1,113 @@
+.block-is-circled {
+	position: relative;
+	width: 160px;
+	height: 160px;
+	margin: 0 auto; // Make circle aligned center.
+	border-radius: 100%;
+	background: #eff4f8;
+
+	.block-image {
+		padding: 30px;
+	}
+
+	&:after {
+		position: absolute;
+		top: 230px;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 10px;
+		height: 40px;
+		content: '';
+		background: #f3f2f2;
+	}
+}
+
+// Services Listings.
+
+.services-list {
+	position: relative;
+	
+	&:before,
+	&:after {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		top: 0;
+		content: '';
+		margin: auto;
+	}
+
+	&:before {
+		bottom: -421px;
+		width: 80%;
+		background: #f3f2f2;
+		height: 8px;
+	}
+
+	&:after {
+		bottom: -500px;
+		width: 10px;
+		height: 140px;
+		background: #f3f2f2;
+	}
+}
+
+.services-item {
+	float: left;
+	width: 20%;
+}
+
+.kids {
+	margin-top: 340px;
+}
+
+@media (max-width: 1000px) { 
+	.kids {
+	margin-top: 197px;
+	}
+	&:before {
+		display: none;
+	}
+
+	&:after {
+		display: none;
+	}
+	.services-item {
+		float: left;
+		width: 17%;
+		margin-bottom: 8px;
+		margin-right: 21px;
+	}
+	.block-is-circled .block-image {
+		padding: 14px;
+	}
+	.block-is-circled {
+		position: relative;
+		width: 140px;
+		height: 140px;
+		margin: 0 auto;
+		border-radius: 100%;
+		background: #eff4f8;
+	}	
+}
+
+@media (max-width: 750px) { 
+	.kids {
+	margin-top: 197px;
+	}
+	&:before {
+		display: none;
+	}
+
+	&:after {
+		display: none;
+	}
+	.services-item {
+		float: left;
+		width: 100%;
+		margin-bottom: 8px;
+	}	
+}

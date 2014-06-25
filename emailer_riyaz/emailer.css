@@ -1,0 +1,432 @@
+/* emailer global css*/
+.clear{
+	clear: both;
+}
+
+.left{float:left;}
+
+.right{float: right;}
+
+/* emailer css */
+.emailer-container {
+	max-width: 900px;
+	margin: 0 auto;
+	/* background: #eee; */
+	font-family: Arial;
+	width: 90%;
+}
+.emailer-header{
+	padding: 0 0 10px;
+	border-bottom: 3px solid #bcbdb5;
+}
+
+.emailer-logo{
+	padding: 20px 0 0;
+}
+
+.emailer-logo img{
+	width: 260px;
+	height: 60px;
+}
+
+.emailer-audi-logo{
+	padding: 10px 0 0;
+}
+
+.emailer-audi-logo img{
+	width: 130px;
+	height: 70px;
+}
+
+.emailer-info{
+	margin: 10px 0 0;
+}
+.emailer-info ul{
+	margin: 0;
+	padding: 0;
+}
+.emailer-info ul li:first-child{
+	padding: 0 7px 0 0;
+}
+
+.emailer-info ul li:first-child::before{
+	content: none;
+}
+
+.emailer-info ul li:last-child{
+	padding: 0 0 0 10px;
+}
+
+.emailer-info ul li{
+	display: inline;
+	font-size: 19px;
+	font-weight: bold;
+	padding: 0 10px;
+}
+
+.emailer-info ul li:before{
+	content: '\f111';
+	font-size: 10px;
+	padding-right: 9px;
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.emailer-content{
+	margin: 3em 0 0;
+}
+
+.banner{
+	padding: 3em 0 1.5em;
+}
+
+.banner img{
+	width:100%;
+}
+
+.emailer-detail{
+	padding: 0 0 1em;
+	text-align:center;
+	color:#59595a;
+	border-bottom: 3px solid #bcbdb5;
+	
+}
+
+.emailer-detail p{
+	line-height: 10px;
+}
+
+.emailer-detail .emailer-detailed--1st{
+	font-size: 50px;
+	font-weight: bold;
+	color: #000; 
+}
+.emailer-detail .emailer-detailed--2nd{
+	font-size: 28px;
+	
+}
+.emailer-detail .emailer-detailed--3rd{
+	font-size:60px;
+	font-weight: bold;
+	color: #000;
+}
+
+.emailer-detail .emailer-detailed--4th{
+	font-size:25px;
+}
+
+.emailer-feature{
+	padding: 30px 35px 10px;
+	text-align: center;
+	color:#59595a;
+	border-bottom: 3px solid #bcbdb5;
+}
+
+.emailer-feature .feature-left--content{
+	line-height: 2px;
+	font-weight: bold;
+}
+
+.emailer-feature .feature-left--content .feature-content--1st{
+	font-size: 18px;
+}
+.emailer-feature .feature-left--content .feature-content--2nd{
+	font-size: 35px;
+	color: #eb1d25;
+
+}
+.emailer-feature .feature-left--content .feature-content--3rd{
+	font-size: 25px;
+	color: #000;
+}
+
+.emailer-feature .feature-right--content{
+
+}
+
+.emailer-feature .feature-right--content img{
+	width: 250px;
+	height: 110px;
+}
+
+.toc{
+	margin-top:2em;
+}
+.toc p{
+	font-size: 13px;
+	text-align: justify; 
+	color: #231f20;
+}
+
+.for-more-info{
+	border: 2px solid #bcbdb5;
+}
+
+.for-more-info p{
+	padding: 0px 21px;
+	font-size: 14px;
+	color: #231f20;
+}
+
+@media(max-width: 1028px){
+
+	.emailer-info ul li {
+		display: inline;
+		font-size: 19px;
+		font-weight: bold;
+		padding: 0 0px;
+	}
+
+}
+
+@media(max-width: 984px){
+	.emailer-detail .emailer-detailed--2nd {
+		font-size: 22px;
+	}
+}
+@media(max-width: 887px){
+	.emailer-feature .feature-left--content .feature-content--2nd {
+		font-size: 27px;
+		color: #eb1d25;
+	}
+}
+@media(max-width: 779px){
+
+	.emailer-content {
+		margin: 0em 0 0;
+	}
+	.emailer-detail .emailer-detailed--1st {
+		font-size: 33px;
+		font-weight: bold;
+		color: #000;
+	}	
+
+	.emailer-detail .emailer-detailed--3rd {
+		font-size: 29px;
+		font-weight: bold;
+		color: #000;
+	}
+
+	.emailer-detail .emailer-detailed--2nd {
+		font-size: 16px;
+		line-height: 1.4;
+	}
+
+	.emailer-feature .feature-left--content .feature-content--2nd {
+		font-size: 20px;
+		color: #eb1d25;
+		margin-left: 3px;
+	}	
+
+	.emailer-detail .emailer-detailed--4th {
+		font-size: 13px;
+	}
+
+	.emailer-info ul li {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0 10px;
+	}
+
+	.emailer-info ul li:first-child::before{
+		content: '\f111';
+	}	
+	.emailer-info ul li:first-child{
+	padding: 0 10px;
+	}
+	.emailer-audi-logo img {
+		width: 130px;
+		height: 70px;
+		margin-right: 109px;
+	}
+	.emailer-logo img {
+		width: 260px;
+		height: 60px;
+		margin-left: 43px;
+	}
+	.toc p {
+		font-size: 11px;
+		text-align: justify;
+		color: #231f20;
+	}
+	.for-more-info p {
+		padding: 0px 21px;
+		font-size: 11px;
+		color: #231f20;
+	}
+
+}
+
+@media(max-width: 600px){
+	.emailer-logo {
+		padding: 20px 0 0;
+		margin-left: 94px;
+	}
+	.emailer-audi-logo {
+		padding: 10px 0 0;
+		margin-right: 81px;
+	}
+	.emailer-audi-logo img {
+		width: 114px;
+		height: 45px;
+	}
+	.emailer-logo img {
+		width: 250px;
+		height: 61px;
+	}
+	.banner {
+		padding: 2em 0 0.5em;
+		margin-left: 59px;
+	}
+	.banner img {
+		width: 83%;
+	}
+	.emailer-detail .emailer-detailed--1st {
+		font-size: 25px;
+		font-weight: bold;
+		color: #000;
+	}
+	.emailer-detail .emailer-detailed--2nd {
+		font-size: 13px;
+		line-height: 1.4;
+	}
+	.emailer-detail .emailer-detailed--3rd {
+		font-size: 25px;
+		font-weight: bold;
+		color: #000;
+	}
+	.emailer-feature .feature-left--content .feature-content--2nd {
+		font-size: 13px;
+		color: #eb1d25;
+		margin-left: 3px;
+	}
+}
+
+
+@media(max-width: 348px) {
+	.emailer-logo img {
+		width: 260px;
+		height: 60px;
+		margin-left: 31px;
+	}
+	.emailer-audi-logo img {
+		width: 130px;
+		height: 70px;
+		margin-right: 90px;
+	}
+	.emailer-detail .emailer-detailed--1st {
+		font-size: 30px;
+		font-weight: bold;
+		color: #000;
+	}
+	.emailer-detail .emailer-detailed--3rd {
+		font-size: 25px;
+		font-weight: bold;
+		color: #000;
+	}
+	.emailer-feature .feature-left--content .feature-content--2nd {
+		font-size: 18px;
+		color: #eb1d25;
+		margin-left: 3px;
+	}	
+}
+
+@media(max-width: 321px){
+	.emailer-detail .emailer-detailed--1st {
+		font-size: 25px;
+		font-weight: bold;
+		color: #000;
+	}
+	.emailer-detail .emailer-detailed--3rd {
+		font-size: 20px;
+		font-weight: bold;
+		color: #000;
+	}
+	.emailer-logo img {
+		width: 260px;
+		height: 60px;
+		margin-left: 10px;
+	}
+	.emailer-audi-logo img {
+		width: 130px;
+		height: 70px;
+		margin-right: 58px;
+	}
+	.emailer-info ul li {
+		display: block;
+		font-size: 13px;
+		font-weight: bold;
+		padding: 0 10px;
+	}
+	.emailer-detail .emailer-detailed--4th {
+		font-size: 13px;
+		line-height: 1.2;
+	}
+	.emailer-feature .feature-left--content .feature-content--2nd {
+	font-size: 14px;
+	color: #eb1d25;
+	margin-left: 3px;
+	}
+	.emailer-logo {
+	padding: 20px 0 0;
+	margin-left: 0;
+	}
+	.emailer-audi-logo {
+		padding: 10px 0 0;
+		margin-right: 0;
+	}
+
+}
+
+@media(max-width: 240px){
+	.emailer-info ul li {
+		display: block;
+		font-size: 8px;
+		font-weight: bold;
+		padding: 0 10px;
+	}
+	.banner {
+		padding: 1em 0 1.5em;
+	}
+	.emailer-detail .emailer-detailed--1st {
+		font-size: 17px;
+		font-weight: bold;
+		color: #000;
+	}
+	.emailer-detail .emailer-detailed--2nd {
+		font-size: 11px;
+		line-height: 1.4;
+	}
+	.emailer-detail .emailer-detailed--3rd {
+		font-size: 14px;
+		font-weight: bold;
+		color: #000;
+	}
+	.emailer-detail .emailer-detailed--4th {
+		font-size: 11px;
+		line-height: 1.2;
+	}
+	.emailer-feature .feature-left--content .feature-content--1st {
+		font-size: 11px;
+	}
+	.emailer-feature .feature-left--content .feature-content--2nd {
+		font-size: 9px;
+		color: #eb1d25;
+		margin-left: 3px;
+	}
+	.emailer-feature .feature-left--content .feature-content--3rd {
+		font-size: 13px;
+		color: #000;
+	}
+	.emailer-feature .feature-right--content img {
+	width: 151px;
+	height: 87px;	}
+}
+
+
+

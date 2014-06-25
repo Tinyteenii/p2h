@@ -1,0 +1,55 @@
+// This is the logo.
+.navbar-brand {
+	display: inline-block;
+	width: 170px;
+	height: 70px;
+	background: url('../images/brand.jpg') left center no-repeat;
+	.hide-text();
+	border-right: 1px solid @header-border;
+	}
+
+
+// Main Navbar.
+
+.navbar-main {
+
+		li {
+			border-left: 1px solid #eee;
+			margin-top: 9px;
+
+			
+			&:nth-child(4n) {
+				border-right: 0;
+			}
+
+			&.active {
+				a {
+					border-top: 5px solid rgb(38, 138, 224);
+					margin-left: 5px;
+					&.hover {
+						background-color: #696E74;
+					}
+				}
+			}
+
+		}
+}
+
+ul.nav.navbar-nav {
+	margin-top: 10px;
+}
+
+a.active {
+background-color: #568897;
+}
+
+.navbar-toggle .icon-bar {
+background-color: #000;
+}
+
+
+@media (max-width: 768px) {
+	.navbar-nav.navbar-right:last-child {
+	margin-right: -50px;
+	}	
+}
